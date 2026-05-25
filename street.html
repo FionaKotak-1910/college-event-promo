@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Street Play – Symphony 2026</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; background: #0f0f0f; color: white; }
+    header {
+      background: linear-gradient(135deg, #6a0dad, #ff4ecd);
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 { font-size: 2.5em; }
+    header p { margin-top: 10px; opacity: 0.9; font-size: 1.1em; }
+    .back {
+      display: inline-block;
+      margin: 20px;
+      color: #ff4ecd;
+      text-decoration: none;
+      font-size: 1em;
+    }
+    .back:hover { text-decoration: underline; }
+    .form-box {
+      max-width: 500px;
+      margin: 10px auto 50px;
+      background: #1e1e1e;
+      border: 1px solid #6a0dad;
+      border-radius: 12px;
+      padding: 30px;
+    }
+    .form-box h2 { color: #ff4ecd; margin-bottom: 20px; text-align: center; }
+    label { display: block; margin-bottom: 5px; opacity: 0.8; font-size: 0.9em; }
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 18px;
+      background: #111;
+      border: 1px solid #6a0dad;
+      border-radius: 8px;
+      color: white;
+      font-size: 1em;
+    }
+    button {
+      width: 100%;
+      padding: 14px;
+      background: linear-gradient(135deg, #6a0dad, #ff4ecd);
+      color: white;
+      border: none;
+      border-radius: 30px;
+      font-size: 1.1em;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    button:hover { opacity: 0.9; }
+    .success { display: none; text-align: center; margin-top: 20px; color: #ff4ecd; font-size: 1.1em; }
+    footer { text-align: center; padding: 20px; background: #1a1a1a; opacity: 0.6; font-size: 0.85em; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Street Play</h1>
+    <p>Speak loud, speak real. No script needed, just pure fire. </p>
+  </header>
+
+  <a href="index.html" class="back">← Back to Symphony 2026</a>
+
+  <div class="form-box">
+    <h2>Register Your Troupe</h2>
+
+    <label>Your Full Name</label>
+    <input type="text" placeholder="e.g. Fiona Kotak" />
+
+    <label>College Roll Number</label>
+    <input type="text" placeholder="e.g. 2023CS101" />
+
+    <label>Email Address</label>
+    <input type="email" placeholder="your@email.com" />
+
+    <label>Phone Number</label>
+    <input type="tel" placeholder="10-digit number" />
+
+    <label>Play Title</label>
+    <input type="text" placeholder="What's your play called?" />
+
+    <label>Number of Performers</label>
+    <select>
+      <option>2–4 members</option>
+      <option>5–8 members</option>
+      <option>9–12 members</option>
+      <option>12+ members</option>
+    </select>
+
+    <label>Theme / Topic</label>
+    <select>
+      <option>Social Issues</option>
+      <option>Comedy / Satire</option>
+      <option>Political Awareness</option>
+      <option>Environmental</option>
+      <option>Mental Health</option>
+      <option>Other</option>
+    </select>
+
+    <label>Duration of Performance</label>
+    <select>
+      <option>Under 10 minutes</option>
+      <option>10–15 minutes</option>
+      <option>15–20 minutes</option>
+    </select>
+
+    <label>Brief Synopsis</label>
+    <textarea rows="3" placeholder="What's your play about? Give us the vibe..."></textarea>
+
+    <label>Any props or special setup needed?</label>
+    <textarea rows="2" placeholder="e.g. chairs, table, sound effects..."></textarea>
+
+    <button onclick="document.querySelector('.success').style.display='block'">
+       Submit Registration
+    </button>
+    <div class="success"> Troupe registered! The stage is yours. Break a leg! </div>
+  </div>
+
+  <footer>
+    <p>Made by Fiona Kotak | PR Team, KJSCE Student Council</p>
+  </footer>
+
+</body>
+</html>
