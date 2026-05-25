@@ -6,30 +6,14 @@
   <title>Symphony 2026 – KJSCE</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #0f0f0f;
-      color: white;
-    }
+    body { font-family: 'Segoe UI', sans-serif; background: #0f0f0f; color: white; }
 
     header {
       background: linear-gradient(135deg, #6a0dad, #ff4ecd);
       text-align: center;
       padding: 60px 20px;
     }
-
-    header h1 {
-      font-size: 3em;
-      letter-spacing: 4px;
-      text-transform: uppercase;
-    }
-
-    header p {
-      font-size: 1.2em;
-      margin-top: 10px;
-      opacity: 0.9;
-    }
+    header h1 { font-size: 3em; letter-spacing: 4px; text-transform: uppercase; }
 
     .countdown {
       text-align: center;
@@ -58,24 +42,29 @@
       text-align: center;
       transition: transform 0.3s;
     }
-
     .card:hover { transform: scale(1.05); }
+    .card h3 { color: #ff4ecd; margin-bottom: 10px; font-size: 1.3em; }
+    .card p { opacity: 0.8; font-size: 0.95em; margin-bottom: 15px; }
 
-    .card h3 {
-      color: #ff4ecd;
-      margin-bottom: 10px;
-      font-size: 1.3em;
+    .card-btn {
+      display: inline-block;
+      margin-top: 5px;
+      padding: 8px 20px;
+      background: #6a0dad;
+      color: white;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 0.9em;
     }
-
-    .card p { opacity: 0.8; font-size: 0.95em; }
+    .card-btn:hover { background: #ff4ecd; }
 
     .register {
       text-align: center;
       padding: 50px 20px;
       background: #0f0f0f;
     }
-
-    .register h2 { font-size: 2em; margin-bottom: 20px; }
+    .register h2 { font-size: 2em; margin-bottom: 10px; }
+    .register p { opacity: 0.7; margin-bottom: 25px; }
 
     .btn {
       display: inline-block;
@@ -98,46 +87,54 @@
   </style>
 </head>
 <body>
+
   <header>
-  <h1> SYMPHONY 2026 </h1>
-  <p style="font-size:1em;letter-spacing:3px;text-transform:uppercase;opacity:0.8;">KJ Somaiya College of Engineering</p>
-  <p style="font-size:1.3em;margin-top:15px;">No cap, this is the collab of the year </p>
-  <p style="margin-top:8px;opacity:0.85;"> March 15–17, 2025 &nbsp;|&nbsp;  KJSCE Campus</p>
-</header>
+    <h1> Symphony 2026 </h1>
+    <p style="font-size:1em;letter-spacing:3px;text-transform:uppercase;opacity:0.8;">KJ Somaiya College of Engineering</p>
+    <p style="font-size:1.3em;margin-top:15px;">No cap, this is the collab of the year </p>
+    <p style="margin-top:8px;opacity:0.85;"> March 15–17, 2026 &nbsp;|&nbsp;  KJSCE Campus</p>
+  </header>
 
-<div class="countdown">
-   3 days. Unreal vibes. Zero regrets. Are you in? 
-</div>
-
-  
+  <div class="countdown">
+     3 days. Unreal vibes. Zero regrets. Are you in? 
+  </div>
 
   <section class="events">
+
     <div class="card">
-      <!-- Battle of Bands -->
-<h3>🎤 Battle of Bands</h3>
-<p>Drop the aux and own the stage. Bring your band, bring the chaos, leave with the crown. 🎸</p>
-
-<!-- Dance War -->
-<h3>💃 Dance War</h3>
-<p>Main character energy only. Solo, duo, crew — if you got moves, we got a stage. 🕺</p>
-
-<!-- Art Attack -->
-<h3>🎨 Art Attack</h3>
-<p>No filter needed. Bring your raw creativity and let the canvas do the talking. 🖌️</p>
-
-<!-- Street Play -->
-<h3>🎭 Street Play</h3>
-<p>Speak loud, speak real. Drama, comedy, and hard truths — performed live, no script needed. 🎬</p>
+      <h3> Battle of Bands</h3>
+      <p>Drop the aux and own the stage. Bring your band, bring the chaos, leave with the crown. 🎸</p>
+      <a href="bands.html" class="card-btn">Register →</a>
     </div>
+
+    <div class="card">
+      <h3> Dance War</h3>
+      <p>Main character energy only. Solo, duo, crew — if you got moves, we got a stage. </p>
+      <a href="dance.html" class="card-btn">Register →</a>
+    </div>
+
+    <div class="card">
+      <h3> Art Attack</h3>
+      <p>No filter needed. Bring your raw creativity and let the canvas do the talking. </p>
+      <a href="art.html" class="card-btn">Register →</a>
+    </div>
+
+    <div class="card">
+      <h3> Street Play</h3>
+      <p>Speak loud, speak real. Drama, comedy, hard truths — performed live, no script needed. </p>
+      <a href="street.html" class="card-btn">Register →</a>
+    </div>
+
   </section>
 
   <section class="register">
-    <h2>Ready to Join the Fest?</h2>
-    <a href="#" class="btn">Register Now</a>
+    <h2>Don't be a spectator. </h2>
+    <p>Spots are limited.</p>
+    <a href="#" class="btn"> Register Now — It's Free</a>
   </section>
 
   <footer>
-    <p>Designed by Fiona Kotak | PR Team, Student Council</p>
+    <p>Made by Fiona Kotak | PR Team, KJSCE Student Council</p>
   </footer>
 
 </body>
