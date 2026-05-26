@@ -26,4 +26,4 @@ This website has a Java backend simulation built separately:
  [Symphony Event Registration System (Java OOP)](https://github.com/fionakotak-1910/symphony-event-registration)
 
 Created By
-Fiona Kotak | Aspiring PR Member, KJSCE Student Council
+Fiona Kotak 
