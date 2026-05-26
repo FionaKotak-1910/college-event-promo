@@ -6,7 +6,7 @@ A promotional website created as part of my portfolio.
 
 Live Site
 
-[Click here to view](https://fionakotak-1910.github.io/college-event-promo)
+[Click here to view](https://fionakotak-1910.github.io/college-event-promo/)
 
 About
 
